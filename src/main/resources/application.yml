@@ -1,0 +1,24 @@
+
+spring:
+  data:
+    cassandra:
+      keyspace-name: main
+      username: woQAeDMjAfStutAZYLxLRlwK
+      password: dKbG-ZTF9P9B9Efp+TqlwBGTl0pxL-cdRFEg2uTN0WlbUJQ,IK3csHTtYKznGhjgPEX.6w+ZHf.4_BZPe7bIH5xeb1xtECmrhZ99Y+4D+117gJrl.Qngjmh-IpLiezwC
+      schema-action: recreate
+      request:        timeout: 10s
+      connection:        connect-timeout: 10s
+        init-query-timeout: 10s  application:    name: betterreadsDataLoader
+    
+datadump.location:
+  author: C:\Study\test-authors.txt
+  works: C:\Study\test-works.txt
+      
+datastax.astra: 
+    secure-connect-bundle : secure-connect.zip
+    
+    astra.db:
+    id: 5d436fc1-3830-4cfd-8ebc-9c6104201cec-1
+    region: asia-south1
+    keyspace: main
+    application.token: AstraCS:woQAeDMjAfStutAZYLxLRlwK:1ef6075077506c64ca156188c2eff87cf5dab0fb6b0a14e722ac1c78ab31996a
